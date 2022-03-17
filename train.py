@@ -11,7 +11,7 @@ from statsmodels.tsa.vector_ar.var_model import VAR
 def train(input_data_path):
   
   # data processing (for details and justification check the analysis notebook and readme)
-  df = pdf.read_csv('input_data_path')
+  df = pd.read_csv(input_data_path)
   df.loc[df['sales_quantity'] == 0, 'revenue'] = 0
   df = df.drop_duplicates()
   df1 = df[df['item_number'] == 80317483]
