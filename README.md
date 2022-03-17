@@ -1,6 +1,6 @@
-# Time-Series-Challenge
+# Time-Series-Task
 
-In this 3-hour data Challenge, we are provided by dataset of the history of retail details (sales, purchase_price, quantities...) of some products.
+In this 3-hour data task, we are provided by dataset of the history of retail details (sales, purchase_price, quantities...) of some products.
 
 Our goal is to train a Time-Series model on this data. Since no instruction on what the target variable is, we decided to proceed with a multivariate approach, where we design a TS model fitting all the features history simultaneously by crossing their values.
 
